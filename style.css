@@ -1553,4 +1553,397 @@ footer {
         text-align: center;
     }
 }
+```css
+/* =========================================================
+   FORCE LIGHT THEME
+   Put this at the VERY END of your CSS file
+========================================================= */
+
+/* PAGE */
+html,
+body {
+    background: #f5f7fb !important;
+    color: #1f2937 !important;
+}
+
+/* ALL SECTIONS */
+section {
+    background: #f5f7fb !important;
+    color: #1f2937 !important;
+}
+
+/* NAVBAR */
+header {
+    background: rgba(255, 255, 255, 0.97) !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05) !important;
+}
+
+nav ul li a {
+    color: #4b5563 !important;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #7c3aed !important;
+}
+
+.logo {
+    color: #111827 !important;
+}
+
+.logo span {
+    color: #7c3aed !important;
+}
+
+
+/* HOME */
+#home {
+    background: #f5f7fb !important;
+}
+
+#home h1 {
+    color: #111827 !important;
+}
+
+#home h2 {
+    color: #4b5563 !important;
+}
+
+#home p {
+    color: #6b7280 !important;
+}
+
+#home p:first-child {
+    color: #7c3aed !important;
+}
+
+
+/* HOME BUTTONS */
+#home a {
+    background: #7c3aed !important;
+    color: white !important;
+}
+
+#home a:hover {
+    background: #6d28d9 !important;
+}
+
+
+/* HOME IMAGE */
+.home-image img {
+    border-color: #7c3aed !important;
+    background: white !important;
+    box-shadow: 0 15px 40px rgba(124, 58, 237, 0.20) !important;
+}
+
+
+/* TITLES */
+section h2,
+.details-section h2,
+.award-section h2 {
+    color: #111827 !important;
+}
+
+section h2::after {
+    background: #7c3aed !important;
+}
+
+
+/* ABOUT */
+#about {
+    background: white !important;
+}
+
+#about p {
+    color: #4b5563 !important;
+}
+
+
+/* SKILLS */
+#skills {
+    background: #f5f7fb !important;
+}
+
+#skills h3 {
+    color: #7c3aed !important;
+}
+
+#skills p {
+    color: #4b5563 !important;
+}
+
+
+/* PROJECTS */
+#projects {
+    background: white !important;
+}
+
+#projects article {
+    background: white !important;
+    color: #111827 !important;
+    border-color: #e5e7eb !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05) !important;
+}
+
+#projects article:hover {
+    border-color: #7c3aed !important;
+    box-shadow: 0 15px 40px rgba(124, 58, 237, 0.12) !important;
+}
+
+#projects h3 {
+    color: #111827 !important;
+}
+
+#projects p {
+    color: #4b5563 !important;
+}
+
+
+/* PROJECT TAGS */
+.project-award,
+.tech-stack span,
+.project-tags span,
+.skill-list div,
+.award-badge {
+    background: #f0eaff !important;
+    border-color: #c4b5fd !important;
+    color: #6d28d9 !important;
+}
+
+
+/* PROJECT BUTTONS */
+.project-button {
+    background: #7c3aed !important;
+    color: white !important;
+}
+
+.project-button:hover {
+    background: #6d28d9 !important;
+}
+
+.project-button.secondary {
+    background: white !important;
+    color: #7c3aed !important;
+    border-color: #7c3aed !important;
+}
+
+
+/* EDUCATION */
+#education {
+    background: #f5f7fb !important;
+}
+
+#education article {
+    background: white !important;
+    border-left-color: #7c3aed !important;
+    border-top: 1px solid #e5e7eb !important;
+    border-right: 1px solid #e5e7eb !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+#education h3 {
+    color: #111827 !important;
+}
+
+#education p {
+    color: #4b5563 !important;
+}
+
+
+/* OTHER ARTICLES */
+section article {
+    color: #111827 !important;
+}
+
+section article h3 {
+    color: #111827 !important;
+}
+
+section article p {
+    color: #4b5563 !important;
+}
+
+
+/* CONTACT */
+#contact {
+    background: white !important;
+}
+
+#contact p {
+    color: #4b5563 !important;
+}
+
+#contact a {
+    color: #7c3aed !important;
+}
+
+
+/* TALENTSPHERE */
+.project-details {
+    background: #f5f7fb !important;
+}
+
+.project-details > h1 {
+    color: #111827 !important;
+}
+
+.project-details > h2 {
+    color: #4b5563 !important;
+}
+
+.project-label {
+    color: #7c3aed !important;
+}
+
+.project-intro {
+    color: #4b5563 !important;
+}
+
+
+/* DETAILS */
+.details-section {
+    background: white !important;
+    color: #111827 !important;
+}
+
+.details-section h2,
+.details-section h3 {
+    color: #111827 !important;
+}
+
+.details-section p,
+.details-section li {
+    color: #4b5563 !important;
+}
+
+.details-section strong {
+    color: #111827 !important;
+}
+
+
+/* TECH GRID */
+.tech-grid > div {
+    background: white !important;
+    border-color: #e5e7eb !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+.tech-grid > div:hover {
+    border-color: #7c3aed !important;
+}
+
+.tech-grid h3 {
+    color: #7c3aed !important;
+}
+
+.tech-grid p {
+    color: #4b5563 !important;
+}
+
+
+/* RESULT CARD */
+.result-card {
+    background: white !important;
+    border-color: #e5e7eb !important;
+}
+
+.result-number {
+    color: #7c3aed !important;
+}
+
+.result-card h3 {
+    color: #111827 !important;
+}
+
+.result-card p {
+    color: #4b5563 !important;
+}
+
+
+/* AWARD */
+.award-section {
+    background: white !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.award-section h2 {
+    color: #111827 !important;
+}
+
+.award-section h3 {
+    color: #7c3aed !important;
+}
+
+.award-section p {
+    color: #4b5563 !important;
+}
+
+
+/* GALLERY */
+.award-image {
+    background: white !important;
+    border-color: #e5e7eb !important;
+}
+
+.award-image p {
+    color: #4b5563 !important;
+}
+
+
+/* VIDEO */
+.video-container {
+    background: white !important;
+    border-color: #e5e7eb !important;
+}
+
+
+/* REPORT */
+.report-section {
+    background: white !important;
+}
+
+
+/* PROJECT COVER */
+.project-cover {
+    background: white !important;
+    border-color: #e5e7eb !important;
+}
+
+
+/* RESOURCES */
+.project-resources {
+    background: white !important;
+    border-color: #e5e7eb !important;
+}
+
+.project-resources > p {
+    color: #4b5563 !important;
+}
+
+.resource-button {
+    background: #7c3aed !important;
+    color: white !important;
+}
+
+.resource-button.secondary {
+    background: white !important;
+    color: #7c3aed !important;
+    border-color: #7c3aed !important;
+}
+
+
+/* BACK */
+.back-section {
+    background: #f5f7fb !important;
+}
+
+
+/* FOOTER */
+footer {
+    background: #111827 !important;
+    color: #d1d5db !important;
+}
+```
+
 ```
