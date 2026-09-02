@@ -1494,3 +1494,550 @@ footer {
         text-align: center;
     }
 }
+
+
+
+
+
+
+```css
+/* =========================================================
+   LIGHT PROFESSIONAL THEME
+========================================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fc;
+    color: #1e1e2f;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e5e7eb;
+}
+
+nav ul li a {
+    color: #555566;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #7c3aed;
+}
+
+.logo span {
+    color: #7c3aed;
+}
+
+
+/* =========================================================
+   HOME
+========================================================= */
+
+#home p:first-child {
+    color: #7c3aed;
+}
+
+#home h2 {
+    color: #5f6175;
+}
+
+#home p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   HOME IMAGE
+========================================================= */
+
+.home-image img {
+    border: 4px solid #7c3aed;
+
+    box-shadow:
+        0 10px 40px rgba(124, 58, 237, 0.18);
+}
+
+.home-image img:hover {
+    box-shadow:
+        0 15px 50px rgba(124, 58, 237, 0.28);
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+#home a {
+    background: #7c3aed;
+    color: #ffffff;
+}
+
+#home a:hover {
+    background: #6d28d9;
+}
+
+
+/* =========================================================
+   SECTION TITLES
+========================================================= */
+
+section h2 {
+    color: #1e1e2f;
+}
+
+section h2::after {
+    background: #7c3aed;
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+#about {
+    background: #ffffff;
+}
+
+#about p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   SKILLS
+========================================================= */
+
+#skills h3 {
+    color: #7c3aed;
+}
+
+#skills p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   PROJECTS
+========================================================= */
+
+#projects {
+    background: #f8f9fc;
+}
+
+#projects article {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 20px rgba(30, 30, 47, 0.04);
+}
+
+#projects article:hover {
+    border-color: #7c3aed;
+
+    box-shadow:
+        0 15px 40px rgba(124, 58, 237, 0.12);
+}
+
+#projects h3 {
+    color: #1e1e2f;
+}
+
+#projects p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   PROJECT AWARD
+========================================================= */
+
+.project-award {
+    background: #ede9fe;
+
+    border: 1px solid #8b5cf6;
+
+    color: #6d28d9;
+}
+
+.award-place {
+    color: #7c3aed !important;
+}
+
+
+/* =========================================================
+   PROJECT BUTTONS
+========================================================= */
+
+.project-button {
+    background: #7c3aed;
+}
+
+.project-button:hover {
+    background: #6d28d9;
+}
+
+.project-button.secondary {
+    background: #ffffff;
+
+    border: 1px solid #7c3aed;
+
+    color: #7c3aed;
+}
+
+.project-button.secondary:hover {
+    background: #7c3aed;
+
+    color: #ffffff;
+}
+
+.project-link {
+    color: #7c3aed;
+}
+
+.project-link:hover {
+    color: #6d28d9;
+}
+
+
+/* =========================================================
+   TECH STACK
+========================================================= */
+
+.tech-stack span {
+    background: #f1edff;
+
+    border: 1px solid #c4b5fd;
+
+    color: #6d28d9;
+}
+
+
+/* =========================================================
+   EDUCATION
+========================================================= */
+
+#education article {
+    border-left: 3px solid #7c3aed;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 5px 20px rgba(30, 30, 47, 0.04);
+}
+
+#education h3 {
+    color: #1e1e2f;
+}
+
+#education p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   ACTIVITIES
+========================================================= */
+
+section:not(#home):not(#about):not(#skills):not(#projects):not(#education):not(#contact):not(.project-details):not(.details-section):not(.award-section):not(.back-section) article {
+    background: #ffffff;
+
+    box-shadow:
+        0 5px 20px rgba(30, 30, 47, 0.04);
+}
+
+section article h3 {
+    color: #1e1e2f;
+}
+
+section article p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   CONTACT
+========================================================= */
+
+#contact {
+    background: #ffffff;
+}
+
+#contact p {
+    color: #646477;
+}
+
+#contact a {
+    color: #7c3aed;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: #1e1e2f;
+
+    color: #b8b8c7;
+}
+
+
+/* =========================================================
+   TALENTSPHERE
+========================================================= */
+
+.project-label {
+    color: #7c3aed;
+}
+
+.project-details > h1 {
+    color: #1e1e2f;
+}
+
+.project-details > h2 {
+    color: #646477;
+}
+
+.project-intro {
+    color: #646477;
+}
+
+
+/* =========================================================
+   TALENTSPHERE TAGS
+========================================================= */
+
+.project-tags span {
+    background: #f1edff;
+
+    border: 1px solid #c4b5fd;
+
+    color: #6d28d9;
+}
+
+
+/* =========================================================
+   DETAILS SECTIONS
+========================================================= */
+
+.details-section h2 {
+    color: #1e1e2f;
+}
+
+.details-section h3 {
+    color: #1e1e2f;
+}
+
+.details-section p {
+    color: #646477;
+}
+
+.details-section ul,
+.details-section ol {
+    color: #646477;
+}
+
+.details-section strong {
+    color: #1e1e2f;
+}
+
+
+/* =========================================================
+   TECH GRID
+========================================================= */
+
+.tech-grid > div {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 20px rgba(30, 30, 47, 0.04);
+}
+
+.tech-grid > div:hover {
+    border-color: #7c3aed;
+
+    box-shadow:
+        0 10px 30px rgba(124, 58, 237, 0.12);
+}
+
+.tech-grid h3 {
+    color: #7c3aed;
+}
+
+.tech-grid p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   RESULT CARD
+========================================================= */
+
+.result-card {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 8px 25px rgba(30, 30, 47, 0.05);
+}
+
+.result-number {
+    color: #7c3aed;
+}
+
+.result-card h3 {
+    color: #1e1e2f;
+}
+
+
+/* =========================================================
+   SKILL LIST
+========================================================= */
+
+.skill-list div {
+    background: #f1edff;
+
+    border: 1px solid #c4b5fd;
+
+    color: #6d28d9;
+}
+
+
+/* =========================================================
+   AWARD SECTION
+========================================================= */
+
+.award-section {
+    background: #ffffff;
+
+    box-shadow:
+        0 10px 35px rgba(30, 30, 47, 0.05);
+}
+
+.award-badge {
+    background: #ede9fe;
+
+    border: 1px solid #c4b5fd;
+
+    color: #6d28d9;
+}
+
+.award-section h2 {
+    color: #1e1e2f;
+}
+
+.award-section h3 {
+    color: #7c3aed;
+}
+
+.award-section p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   AWARD GALLERY
+========================================================= */
+
+.award-image {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 5px 20px rgba(30, 30, 47, 0.05);
+}
+
+.award-image:hover {
+    border-color: #7c3aed;
+
+    box-shadow:
+        0 15px 40px rgba(124, 58, 237, 0.12);
+}
+
+.award-image p {
+    color: #646477;
+}
+
+
+/* =========================================================
+   VIDEO
+========================================================= */
+
+.video-container {
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 15px 40px rgba(30, 30, 47, 0.08);
+}
+
+
+/* =========================================================
+   REPORT
+========================================================= */
+
+.report-section {
+    background: #ffffff;
+}
+
+
+/* =========================================================
+   PROJECT COVER
+========================================================= */
+
+.project-cover {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 15px 40px rgba(30, 30, 47, 0.08);
+}
+
+
+/* =========================================================
+   PROJECT RESOURCE
+========================================================= */
+
+.project-resources {
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow:
+        0 8px 25px rgba(30, 30, 47, 0.05);
+}
+
+.project-resources > p {
+    color: #646477;
+}
+
+.resource-button {
+    background: #7c3aed;
+}
+
+.resource-button:hover {
+    background: #6d28d9;
+}
+
+.resource-button.secondary {
+    background: #ffffff;
+
+    border: 1px solid #7c3aed;
+
+    color: #7c3aed;
+}
+
+.project-end p {
+    color: #646477;
+}
+```
+
