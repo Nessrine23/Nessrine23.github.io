@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>MLOps Salary Prediction | Nessrine Felah</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            Nessrine Felah
+        </a>
+
+        <nav>
+
+            <a href="index.html#home">
+                Home
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#skills">
+                Skills
+            </a>
+
+            <a href="index.html#projects">
+                Projects
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     PROJECT HEADER
+========================================================= -->
+
+<section class="project-details">
+
+    <p class="project-label">
+        MLOps • Machine Learning • Model Monitoring
+    </p>
+
+    <h1>
+        MLOps — Salary Prediction
+    </h1>
+
+    <h2>
+        End-to-End Machine Learning & Model Monitoring
+    </h2>
+
+    <p class="project-intro">
+
+        An end-to-end MLOps project designed to build,
+        track and monitor a Machine Learning model for
+        salary prediction based on years of experience.
+
+        The project integrates Machine Learning,
+        MLflow, Elasticsearch, Kibana, Docker and Git
+        to create a complete and reproducible workflow.
+
+    </p>
+
+
+    <div class="tech-stack">
+
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>Scikit-learn</span>
+        <span>Linear Regression</span>
+        <span>MLflow</span>
+        <span>Elasticsearch</span>
+        <span>Kibana</span>
+        <span>Docker</span>
+        <span>Git</span>
+        <span>GitHub</span>
+
+    </div>
+
+
+    <div class="project-buttons">
+
+        <a href="https://github.com/Nessrine23/mlops-salary-prediction"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="project-button">
+
+            GitHub →
+
+        </a>
+
+        <a href="index.html#projects"
+           class="project-button secondary">
+
+            Back to Projects →
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PROJECT OVERVIEW
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Project Overview
+    </h2>
+
+    <p>
+
+        The objective of this project is to develop a
+        Machine Learning model capable of predicting
+        salary based on years of experience.
+
+        Beyond model training, the project focuses on
+        the MLOps lifecycle by integrating experiment
+        tracking, model management, metrics storage
+        and monitoring.
+
+    </p>
+
+    <p>
+
+        The complete workflow combines a Machine Learning
+        model with MLflow for experiment tracking and
+        Elasticsearch + Kibana for monitoring model
+        performance.
+
+    </p>
+
+</section>
+
+
+
+<!-- =========================================================
+     ARCHITECTURE
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        MLOps Architecture
+    </h2>
+
+    <p>
+
+        The project follows an end-to-end pipeline from
+        data preparation to model monitoring.
+
+    </p>
+
+
+    <div class="tech-grid">
+
+        <div class="result-card">
+
+            <h3>
+                01 — Data & Machine Learning
+            </h3>
+
+            <p>
+
+                Salary dataset preprocessing using
+                Pandas followed by model training
+                with Scikit-learn.
+
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                02 — Model Training
+            </h3>
+
+            <p>
+
+                A Linear Regression model is trained
+                using years of experience as the main
+                predictive feature.
+
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                03 — MLflow
+            </h3>
+
+            <p>
+
+                MLflow is used to track experiments,
+                parameters, metrics and model artifacts.
+
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                04 — Elasticsearch
+            </h3>
+
+            <p>
+
+                Model performance metrics are stored
+                in an Elasticsearch index for monitoring.
+
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                05 — Kibana
+            </h3>
+
+            <p>
+
+                Kibana provides interactive dashboards
+                for visualizing model performance metrics.
+
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                06 — Docker
+            </h3>
+
+            <p>
+
+                Docker and Docker Compose are used to
+                run the monitoring infrastructure in
+                isolated containers.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PIPELINE
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Machine Learning Pipeline
+    </h2>
+
+    <p>
+
+        The complete workflow can be summarized as:
+
+    </p>
+
+
+    <div class="result-card">
+
+        <p>
+
+            <strong>
+                Salary_Data.csv
+            </strong>
+
+            ↓
+
+            Pandas preprocessing
+
+            ↓
+
+            Train / Test Split
+
+            ↓
+
+            Scikit-learn
+
+            ↓
+
+            Linear Regression
+
+            ↓
+
+            Model Evaluation
+
+            ↓
+
+            MLflow Tracking
+
+            ↓
+
+            Elasticsearch
+
+            ↓
+
+            Kibana Dashboard
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     DATASET
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Dataset
+    </h2>
+
+    <p>
+
+        The project uses the
+        <strong>Salary_Data.csv</strong>
+        dataset containing salary information
+        associated with years of professional experience.
+
+    </p>
+
+    <div class="tech-grid">
+
+        <div class="result-card">
+
+            <h3>
+                Dataset Size
+            </h3>
+
+            <p>
+                30 observations
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Training Set
+            </h3>
+
+            <p>
+                24 observations
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Test Set
+            </h3>
+
+            <p>
+                6 observations
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     MODEL
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Machine Learning Model
+    </h2>
+
+    <p>
+
+        A
+        <strong>Linear Regression</strong>
+        model was implemented using Scikit-learn.
+
+        The model learns the relationship between
+        years of experience and salary.
+
+    </p>
+
+    <p>
+
+        After training, the model is evaluated on
+        unseen test data using several regression
+        metrics.
+
+    </p>
+
+</section>
+
+
+
+<!-- =========================================================
+     RESULTS
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Model Results
+    </h2>
+
+    <p>
+
+        The model was evaluated using R², RMSE and MAE.
+
+    </p>
+
+
+    <div class="tech-grid">
+
+
+        <div class="result-card">
+
+            <div class="result-number">
+                0.8914
+            </div>
+
+            <h3>
+                R² Score
+            </h3>
+
+            <p>
+                Coefficient of determination
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <div class="result-number">
+                7,449.44
+            </div>
+
+            <h3>
+                RMSE
+            </h3>
+
+            <p>
+                Root Mean Squared Error
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <div class="result-number">
+                6,515.68
+            </div>
+
+            <h3>
+                MAE
+            </h3>
+
+            <p>
+                Mean Absolute Error
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     MLFLOW
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Experiment Tracking with MLflow
+    </h2>
+
+    <p>
+
+        MLflow is integrated into the project to track
+        Machine Learning experiments.
+
+    </p>
+
+    <div class="tech-grid">
+
+        <div class="result-card">
+
+            <h3>
+                Experiment
+            </h3>
+
+            <p>
+                Salary_Prediction_Experiment
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Tracking
+            </h3>
+
+            <p>
+                Parameters and evaluation metrics
+                are tracked using MLflow.
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Model Artifact
+            </h3>
+
+            <p>
+                The trained model is saved as
+                model.pkl.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ELASTICSEARCH + KIBANA
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Model Monitoring with Elasticsearch & Kibana
+    </h2>
+
+    <p>
+
+        Model evaluation metrics are sent to
+        Elasticsearch and visualized through Kibana.
+
+        This makes it possible to monitor model
+        performance through an interactive dashboard.
+
+    </p>
+
+
+    <div class="tech-grid">
+
+        <div class="result-card">
+
+            <h3>
+                Elasticsearch
+            </h3>
+
+            <p>
+
+                Stores model performance metrics
+                in the
+                <strong>mlflow-metrics</strong>
+                index.
+
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Kibana
+            </h3>
+
+            <p>
+
+                Provides interactive visualizations
+                for R², RMSE and MAE.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     KIBANA DASHBOARD
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        MLOps Monitoring Dashboard
+    </h2>
+
+    <p>
+
+        The Kibana dashboard provides a visual overview
+        of the model's performance metrics.
+
+        Three main visualizations are included:
+
+    </p>
+
+
+    <ul class="skill-list">
+
+        <li>
+            R² Score Performance
+        </li>
+
+        <li>
+            RMSE Error Evolution
+        </li>
+
+        <li>
+            MAE Error Evolution
+        </li>
+
+    </ul>
+
+
+    <div class="project-image">
+
+        <img
+            src="2.png"
+            alt="Kibana MLOps Model Performance Monitoring Dashboard"
+        >
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     DOCKER
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Containerization
+    </h2>
+
+    <p>
+
+        Docker and Docker Compose are used to
+        containerize the monitoring infrastructure.
+
+        This allows Elasticsearch and Kibana to run
+        in isolated and reproducible environments.
+
+    </p>
+
+
+    <div class="tech-grid">
+
+        <div class="result-card">
+
+            <h3>
+                Elasticsearch
+            </h3>
+
+            <p>
+                Containerized search and metrics storage.
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Kibana
+            </h3>
+
+            <p>
+                Containerized monitoring dashboard.
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <h3>
+                Docker Compose
+            </h3>
+
+            <p>
+                Orchestrates the MLOps services.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     TECHNOLOGIES
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Technologies & Tools
+    </h2>
+
+
+    <div class="tech-stack">
+
+        <span>Python</span>
+
+        <span>Pandas</span>
+
+        <span>NumPy</span>
+
+        <span>Scikit-learn</span>
+
+        <span>Linear Regression</span>
+
+        <span>MLflow</span>
+
+        <span>Elasticsearch</span>
+
+        <span>Kibana</span>
+
+        <span>Docker</span>
+
+        <span>Docker Compose</span>
+
+        <span>Git</span>
+
+        <span>GitHub</span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     GITHUB
+========================================================= -->
+
+<section class="details-section">
+
+    <h2>
+        Project Repository
+    </h2>
+
+    <p>
+
+        The complete source code, configuration files
+        and documentation are available on GitHub.
+
+    </p>
+
+
+    <div class="project-buttons">
+
+        <a
+            href="https://github.com/Nessrine23/mlops-salary-prediction"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-button"
+        >
+
+            View on GitHub →
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     BACK
+========================================================= -->
+
+<section class="back-section">
+
+    <a
+        href="index.html#projects"
+        class="project-button"
+    >
+
+        ← Back to Portfolio
+
+    </a>
+
+</section>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <p>
+        © 2026 Nessrine Felah — Data Science & AI Engineering
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
